@@ -673,6 +673,11 @@ i.filconducteur {color:#A9A9A9;
 			display: block;
 		}
 
+		img.projets {
+    display: block;
+    width: 100%;
+}
+
 		.image.left, .image.right {
 			max-width: 40%;
 		}
