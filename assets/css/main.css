@@ -1679,7 +1679,7 @@ i.filconducteur {color:#A9A9A9;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display: flex;
+			display:  inline-block;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
