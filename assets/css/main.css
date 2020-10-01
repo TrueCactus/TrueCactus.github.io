@@ -1727,6 +1727,6 @@ i.filconducteur {color:#A9A9A9;
 			background: #ffffff;
 		}
 
-		article> nav.use-middle ul li.is-middle {
+				#article nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
