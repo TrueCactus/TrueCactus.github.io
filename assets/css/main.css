@@ -1675,7 +1675,7 @@ i.filconducteur {color:#A9A9A9;
 		}
 
 /* article */
-		#article nav ul {
+		#intro nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1687,12 +1687,12 @@ i.filconducteur {color:#A9A9A9;
 			border-radius: 4px;
 		}
 
-			#article nav ul li {
+			#intro nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
 
-				#article nav ul li:first-child {
+				#intro nav ul li:first-child {
 					border-left: 0;
 				}
 
@@ -1708,15 +1708,15 @@ i.filconducteur {color:#A9A9A9;
 					border-bottom: 0;
 				}
 
-					#article nav ul li a:hover {
+					#intro nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
 
-					#article nav ul li a:active {
+					#intro nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#article nav.use-middle:after {
+		#intro nav.use-middle:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1727,6 +1727,6 @@ i.filconducteur {color:#A9A9A9;
 			background: #ffffff;
 		}
 
-				#article nav.use-middle ul li.is-middle {
+				#intro nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
