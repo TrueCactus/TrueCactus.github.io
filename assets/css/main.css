@@ -1675,7 +1675,7 @@ i.filconducteur {color:#A9A9A9;
 		}
 
 /* article */
-		#intro nav ul {
+		article nav ul {
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
@@ -1687,16 +1687,16 @@ i.filconducteur {color:#A9A9A9;
 			border-radius: 4px;
 		}
 
-			#intro nav ul li {
+			article nav ul li {
 				padding-left: 0;
 				border-left: solid 1px #ffffff;
 			}
 
-				#intro nav ul li:first-child {
+				article nav ul li:first-child {
 					border-left: 0;
 				}
 
-				#article nav ul li a {
+				article nav ul li a {
 					display: block;
 					min-width: 7.5rem;
 					height: 2.75rem;
@@ -1708,15 +1708,15 @@ i.filconducteur {color:#A9A9A9;
 					border-bottom: 0;
 				}
 
-					#intro nav ul li a:hover {
+					article nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
 					}
 
-					#intro nav ul li a:active {
+					article nav ul li a:active {
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		#intro nav.use-middle:after {
+		article nav.use-middle:after {
 			content: '';
 			display: block;
 			position: absolute;
@@ -1727,6 +1727,6 @@ i.filconducteur {color:#A9A9A9;
 			background: #ffffff;
 		}
 
-				#intro nav.use-middle ul li.is-middle {
+				article nav.use-middle ul li.is-middle {
 			border-left: 0;
 		}
