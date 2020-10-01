@@ -1679,7 +1679,7 @@ i.filconducteur {color:#A9A9A9;
 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display:  inline-block;
+			display:  flex;
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
@@ -1729,4 +1729,40 @@ i.filconducteur {color:#A9A9A9;
 
 				article nav.use-middle ul li.is-middle {
 			border-left: 0;
+		}
+
+
+@media screen and (max-width: 480px) {
+
+
+
+				article nav ul {
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					min-width: 10rem;
+					max-width: 100%;
+				}
+
+					article nav ul li {
+						border-left: 0;
+						border-top: solid 1px #ffffff;
+					}
+
+						article nav ul li:first-child {
+							border-top: 0;
+						}
+
+						article nav ul li a {
+							height: 3rem;
+							line-height: 3rem;
+							min-width: 0;
+							width: 100%;
+						}
+
+				article nav.use-middle:after {
+					display: none;
+				}
+
 		}
