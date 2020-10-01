@@ -1689,7 +1689,7 @@ i.filconducteur {color:#A9A9A9;
 
 			article nav ul li {
 				padding-left: 0;
-				border-left: none ;
+				border-left: solid 1px #ffffff ;
 			}
 
 				article nav ul li:first-child {
@@ -1717,18 +1717,11 @@ i.filconducteur {color:#A9A9A9;
 					}
 
 		article nav.use-middle:after {
-			content: '';
-			display: block;
-			position: absolute;
-			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
-			height: 100%;
-			background: #ffffff;
+			display: none;
 		}
 
 				article nav.use-middle ul li.is-middle {
-			border-left: 0;
+			display:none;
 		}
 
 
