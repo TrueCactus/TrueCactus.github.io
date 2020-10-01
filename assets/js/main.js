@@ -13,6 +13,7 @@
 		$footer = $('#footer'),
 		$main = $('#main'),
 		$main_articles = $main.children('article');
+	        $article =$('article')
 	       
 
 	// Breakpoints.
@@ -66,6 +67,17 @@
 
 			}
 	
+	
+			var $nav_art = $article.children('nav'),
+			$nav_li_art = $nav_art.find('li');
+
+		// Add "middle" alignment classes if we're dealing with an even number of items.
+			if ($nav_li_art.length % 2 == 0) {
+
+				$nav_art.addClass('use-middle');
+				$nav_li_art.eq( ($nav_li_art.length / 2) ).addClass('is-middle');
+
+			}
 	
 
 	// Main.
