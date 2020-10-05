@@ -1824,12 +1824,24 @@ padding: 2em 20px 2em;
 						background-color: rgba(255, 255, 255, 0.175);
 					}
 
-		section.pagesprojets  nav.use-middle:after {
-			display: none;
-		}
+					section.pagesprojets  nav.use-middle:after {
+						display: none;
+					}
 
-				section.pagesprojets  nav.use-middle ul li.is-middle {
-		}
+					section.pagesprojets  nav.use-middle ul li.is-middle {
+					}
+
+
+					section.pagesprojets nav.use-middle:after {
+						content: '';
+						display: block;
+						position: absolute;
+						top: 0;
+						left: calc(50% - 1px);
+						width: 1px;
+						height: 100%;
+						background: #ffffff;
+					}
 
 
 @media screen and (max-width: 480px) {
