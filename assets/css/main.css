@@ -1781,10 +1781,11 @@ padding: 2em 20px 2em;
 
 						}
 		section.pagesprojets nav ul {
-			display: -moz-flex;
+			
+/*display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display:  flex;
+			display:  flex;*/
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
