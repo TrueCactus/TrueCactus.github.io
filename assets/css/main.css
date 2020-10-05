@@ -1777,7 +1777,8 @@ padding: 2em 20px 2em;
 /* Pages Projets */
 
 		section.pagesprojets nav {
-				text-align: center
+				text-align: center;
+			        padding : 1em 1em 1em 1em;
 
 						}
 		section.pagesprojets nav ul {
