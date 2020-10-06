@@ -1766,6 +1766,7 @@ article.pagesprojets {
 
 section.pagesprojets {
 	display: block;
+	padding : 2em 2em 2em 2em;
 }
 
 div.pagesprojets {
