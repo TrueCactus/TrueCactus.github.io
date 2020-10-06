@@ -1884,3 +1884,11 @@ padding: 2em 20px 2em;
 div.col-4 {
   padding : 1em 5em  1em 5em ;
 }
+
+
+@media screen and (max-width: 736px) {
+
+			div.col-4 {
+  padding : 1em 1em  1em 1em ;
+}
+}
